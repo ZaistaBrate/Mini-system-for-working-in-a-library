@@ -6,9 +6,9 @@ public class Roman : Knjiga , IPozajmljivo
     {
         
     }
-    public override string PrikaziInfo()
+    public override void PrikaziInfo()
     {
-        return $"Roman: {naslov} \n, Autor: {autor} \n, Izdat: {godina} \n";
+        Console.WriteLine($"Roman: {naslov} \n Autor: {autor} \n Izdat: {godina} \n");
     }
 
     public void Pozajmi()
