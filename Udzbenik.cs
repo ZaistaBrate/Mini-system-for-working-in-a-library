@@ -6,9 +6,9 @@ public class Udzbenik : Knjiga , IPozajmljivo
     {
         
     }
-    public override string PrikaziInfo()
+    public override void PrikaziInfo()
     {
-        return $"Udzbenik: {naslov} \n,Autor: {autor} \n, Proizvedena i izdata: {godina} \n";
+        Console.WriteLine($"Udzbenik: {naslov} \n Autor: {autor} \n Proizvedena i izdata: {godina} \n");
     }    
     
     public void Pozajmi()
