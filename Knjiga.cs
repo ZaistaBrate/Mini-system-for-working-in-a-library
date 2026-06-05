@@ -13,8 +13,8 @@ public abstract class Knjiga
         this.godina = godina;
     }
 
-    public virtual string PrikaziInfo()
+    public virtual void PrikaziInfo()
     {
-        return $"{naslov} - {autor} - {godina}";
+        Console.WriteLine($"{naslov} -  {autor} - {godina}");
     }
 }
