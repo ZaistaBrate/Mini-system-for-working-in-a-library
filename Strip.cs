@@ -6,9 +6,9 @@ public class Strip : Knjiga , IPozajmljivo
     {
         
     }
-    public override string PrikaziInfo()
+    public override void PrikaziInfo()
     {
-        return $"Strip: {naslov} \n, Autor: {autor} \n , Proizveden i izdat: {godina} \n";
+        Console.WriteLine($"Strip: {naslov} \n Autor: {autor} \n Proizveden i izdat: {godina} \n");
     }
     
     public void Pozajmi()
