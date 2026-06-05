@@ -11,9 +11,10 @@ biblioteka.DodajKnjigu(new Udzbenik("Muzicka kultura" , "Klet" , 2011));
 biblioteka.DodajKnjigu(new ElektronskaKnjiga("Programiranje" , "Obama" , 2008));
 biblioteka.DodajKnjigu(new ElektronskaKnjiga("Baze podataka" , "Neznam" , 2011));
 Console.WriteLine();
-biblioteka.PrikaziSveKnjige();
 ElektronskaKnjiga.Preuzmi();
-
+Console.WriteLine();
+biblioteka.PrikaziSveKnjige();
+Console.WriteLine();
 try
 {
     Console.ForegroundColor = ConsoleColor.Green;
@@ -39,4 +40,5 @@ catch (KnjigaNijePronadjenaException e)
 {
     Console.WriteLine(e.Message);
 }
+
 
