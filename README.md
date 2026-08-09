@@ -1,2 +1,19 @@
 # Mini-system-for-working-in-a-library
-  This simple system was created as a working principle in a library where books are displayed that you can borrow, return, or, if it is an electronic book, download. For the creation of this conceptual system, the OOP paradigm and exception handling were used. The program is of simpler composition, which is why it is a mini system.
+Mini System for Working in a Library is a library management console application designed to simplify and automate daily library operations. The system helps librarians efficiently manage books, members, borrowing records, and returns through an intuitive and user-friendly interface.
+
+## FEATURES:
+-The ability to borrow, search, and return
+
+-Organize books by category, author, and publisher
+
+-Book accessibility via the library website
+
+## TECHNOLOGIES USED:
+-C# (.NET 10.0)
+
+### SHORT DESCRIPTION
+
+The project wasn't developed to be complex or very functional, but rather as a better project exercise that will be built upon.
+
+<img width="1827" height="840" alt="mini sistem za rad u biblioteci" src="https://github.com/user-attachments/assets/e0b79b3c-332d-4ac6-a6ba-c50fb5ad2acf" />
+
